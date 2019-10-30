@@ -52,7 +52,7 @@ public class UTApplication {
     public void start() {
 
         String userKey="PTM";//脑补一下这个是从前台传过来的数据
-        String processDefinitionKey ="myProcess_1";//每一个流程有对应的一个key这个是某一个流程内固定的写在bpmn内的
+        String processDefinitionKey ="myProcess_2";//每一个流程有对应的一个key这个是某一个流程内固定的写在bpmn内的
         HashMap<String, Object> variables=new HashMap<>();
         variables.put("userKey", userKey);//userKey在上文的流程变量中指定了
 
@@ -67,7 +67,7 @@ public class UTApplication {
     @Test
     public void searchProcessInstance(){
         String processDefinitionKey = "oneTaskProcess";
-        String processDefinitionId = "f3e28243-8285-11e9-84d6-408d5ccf513c";
+        String processDefinitionId = "b51ddbae-f9f4-11e9-bd26-82869256f240";
         ProcessInstance pi = runtimeService.createProcessInstanceQuery()
 //                .processDefinitionKey(processDefinitionKey)
                 .processInstanceId(processDefinitionId)
