@@ -9,12 +9,16 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2019/10/30
  */
 @RestController
-@RequestMapping("index")
+@RequestMapping("")
 public class IndexController {
 
-    @GetMapping("t1")
+    @GetMapping("index/t1")
     public String index(){
         return "Spring Boot Client Application";
     }
 
+    @GetMapping
+    public String index1(){
+        return "OK";
+    }
 }

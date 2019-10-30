@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8180
   servlet:
     context-path: /demo
 spring:
@@ -10,12 +10,10 @@ spring:
     admin:
       client:
         # Spring Boot Admin 服务端地址
-        url: "http://localhost:8000/"
-        instance:
-          metadata:
-            # 客户端端点信息的安全认证信息
-            user.name: ${spring.security.user.name}
-            user.password: ${spring.security.user.password}
+        url: http://localhost:8000
+        # 客户端端点信息的安全认证信息
+        username: ${spring.security.user.name}
+        password: ${spring.security.user.password}
   security:
     user:
       name: dev
