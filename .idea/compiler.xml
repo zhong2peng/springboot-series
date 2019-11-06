@@ -13,6 +13,7 @@
         <module name="[006][cache-redis]" />
         <module name="[007][docker]" />
         <module name="[009][email]" />
+        <module name="[010][exception-handler]" />
         <module name="admin-client" />
         <module name="admin-server" />
         <module name="dubbo-common" />

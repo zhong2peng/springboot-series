@@ -18,6 +18,7 @@
         <module>[007][docker]</module>
         <module>[008][dubbo]</module>
         <module>[009][email]</module>
+        <module>[010][exception-handler]</module>
     </modules>
 
     <properties>

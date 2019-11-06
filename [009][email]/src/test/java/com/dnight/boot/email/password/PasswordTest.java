@@ -16,9 +16,11 @@ public class PasswordTest extends UTApplication {
 
     @Test
     public void generatePassword(){
-        String password = "ZPzp520520";
+        String password = "Just4Test!";
         String encryptPassword = encryptor.encrypt(password);
         String decryptPassword = encryptor.decrypt(encryptPassword);
+
+        System.out.println(encryptor.decrypt("OT0qGOpXrr1Iog1W+fjOiIDCJdBjHyhy"));
 
         System.out.println("pwd = "+password);
         System.out.println("encryptPassword = "+encryptPassword);
