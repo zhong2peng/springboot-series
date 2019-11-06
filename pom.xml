@@ -13,6 +13,11 @@
         <module>[002][actuator]</module>
         <module>[003][admin]</module>
         <module>[004][async]</module>
+        <module>[005][cache-ehcache]</module>
+        <module>[006][cache-redis]</module>
+        <module>[007][docker]</module>
+        <module>[008][dubbo]</module>
+        <module>[009][email]</module>
     </modules>
 
     <properties>

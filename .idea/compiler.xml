@@ -9,8 +9,15 @@
         <module name="[001][activiti]" />
         <module name="[002][actuator]" />
         <module name="[004][async]" />
+        <module name="[005][cache-ehcache]" />
+        <module name="[006][cache-redis]" />
+        <module name="[007][docker]" />
+        <module name="[009][email]" />
         <module name="admin-client" />
         <module name="admin-server" />
+        <module name="dubbo-common" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
       </profile>
     </annotationProcessing>
   </component>
