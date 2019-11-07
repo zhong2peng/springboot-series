@@ -19,6 +19,7 @@
         <module>[008][dubbo]</module>
         <module>[009][email]</module>
         <module>[010][exception-handler]</module>
+        <module>[011][logback]</module>
     </modules>
 
     <properties>
