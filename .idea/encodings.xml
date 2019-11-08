@@ -18,5 +18,8 @@
     <file url="file://$PROJECT_DIR$/[009][email]" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/[010][exception-handler]" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/[011][logback]" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/[012][elasticsearch]" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/[013][log-aop]" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/[014][mongodb]" charset="UTF-8" />
   </component>
 </project>

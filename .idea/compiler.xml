@@ -15,6 +15,9 @@
         <module name="[009][email]" />
         <module name="[010][exception-handler]" />
         <module name="[011][logback]" />
+        <module name="[012][elasticsearch]" />
+        <module name="[013][log-aop]" />
+        <module name="[014][mongodb]" />
         <module name="admin-client" />
         <module name="admin-server" />
         <module name="dubbo-common" />

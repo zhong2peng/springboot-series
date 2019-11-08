@@ -20,6 +20,9 @@
         <module>[009][email]</module>
         <module>[010][exception-handler]</module>
         <module>[011][logback]</module>
+        <module>[012][elasticsearch]</module>
+        <module>[013][log-aop]</module>
+        <module>[014][mongodb]</module>
     </modules>
 
     <properties>
